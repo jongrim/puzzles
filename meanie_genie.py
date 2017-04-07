@@ -15,8 +15,6 @@ def make_stones():
         stones.append(Stone())
     stones.append(Stone(1.5))
     stones.sort(key=lambda x: x.chaos)
-    for i in stones:
-        print(i.chaos)
     return stones
 
 
